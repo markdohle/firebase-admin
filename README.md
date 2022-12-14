@@ -1,6 +1,27 @@
 # firebase-admin
 
-##MIT xPro Week 26 - Authentication of Express Routes with Firebase Tokens
+## MIT xPro Week 26 - Authentication of Express Routes with Firebase Tokens
+
+### Authentication
+
+Authentication determines a user’s identity. Firebase makes it easy for you to integrate authentication into your application. You can use pre-built authentication solutions for logging in with your email and password or more robust solutions that allow for authentication with a Gmail or Facebook account.
+
+### Routing
+
+Routing is a little different from authentication, in that routing is an internal process that allows access to different areas of a web page through API endpoints. Now, routing and authentication work together so that only authenticated users can access certain routes (this is also known as authorization), while others cannot. 
+
+### How Firebase Works
+
+If I log in to an app that uses Google Firebase services, the server gives my browser an access token. This token is passed back to the server with any new routing request I make as long as I am logged in, and then the server looks at my token, sees if it can authenticate that particular route that I want to access with it, and then will let me access that resource. Admin users are authenticated to access any resource. 
+
+### Instructions:
+
+In this exercise, you will authenticate certain routes with Firebase. Download the starter files Links to an external site.of a back end and a front end form that you will need to a) configure to your own firebase instance and b) authenticate several express routes for different users of the app.
+
+- Take the token presented to browser client
+- Add the token to the HTTP header
+- Pass the token to the back end
+- Use a Firebase package to verify the token
 
 1. Goto Firebase Project Settings. Select Service accounts. Generate a new private key object.
 
