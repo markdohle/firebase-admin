@@ -2,6 +2,8 @@
 
 ## MIT xPro Week 26 - Authentication of Express Routes with Firebase Tokens
 
+<img id="tokens" src="image004.png" width='400' onclick="Run()" style="position:absolute"> </img>
+
 ### Authentication
 
 Authentication determines a user’s identity. Firebase makes it easy for you to integrate authentication into your application. You can use pre-built authentication solutions for logging in with your email and password or more robust solutions that allow for authentication with a Gmail or Facebook account.
