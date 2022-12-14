@@ -246,3 +246,10 @@ app.listen(3000, () => {
             }).catch(e => console.log('e:',e));
     }    
 ```
+<img id="login" src="firebase-token-login.png" width='400' onclick="Run()" style="position:absolute"> </img>
+
+<img id="logout" src="firebase-token-logout.png" width='400' onclick="Run()" style="position:absolute"> </img>
+
+<img id="open" src="firebase-token-open.png" width='400' onclick="Run()" style="position:absolute"> </img>
+
+<img id="authentication" src="firebase-token-authentication.png" width='400' onclick="Run()" style="position:absolute"> </img>
