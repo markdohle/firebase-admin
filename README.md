@@ -252,4 +252,4 @@ app.listen(3000, () => {
 
 <img id="open" src="firebase-token-open.png" width='400' onclick="Run()" style="position:absolute"> </img>
 
-<img id="authentication" src="firebase-token-authentication.png" width='400' onclick="Run()" style="position:absolute"> </img>
+<img id="authenticated" src="firebase-token-authenticated.png" width='400' onclick="Run()" style="position:absolute"> </img>
