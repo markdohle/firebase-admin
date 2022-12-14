@@ -2,7 +2,7 @@
 
 ## MIT xPro Week 26 - Authentication of Express Routes with Firebase Tokens
 
-<img id="tokens" src="image004.png" width='400' onclick="Run()" style="position:absolute"> </img>
+<img id="tokens" src="image4.png" width='400' onclick="Run()" style="position:absolute"> </img>
 
 ### Authentication
 
